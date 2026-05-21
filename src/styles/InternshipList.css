@@ -1,15 +1,15 @@
 .internship-list {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 16px;
-  min-width: 0;
 }
 
-@media (max-width: 480px) {
-  .internship-list {
-    padding: 12px;
-    grid-template-columns: 1fr;
-  }
+.infinite-scroll-component {
+  overflow: visible !important;
 }
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+} 
