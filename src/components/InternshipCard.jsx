@@ -4,12 +4,6 @@ import '../styles/InternshipCard.css';
 const InternshipCard = ({ internship }) => {
   return (
     <div className="internship-card">
-<<<<<<< HEAD
-      <h4>{internship.profile}</h4>
-      <p><strong>Company:</strong> {internship.title}</p>
-      <p><strong>Location:</strong> {internship.location}</p>
-      <p><strong>Duration:</strong> {internship.duration} months</p>
-=======
       <div className="company-info">
         <img 
           src={`https://internshala.com/uploads/logo/${internship.company_name}`}
@@ -47,13 +41,8 @@ const InternshipCard = ({ internship }) => {
           {internship.expiring_in}
         </div>
       </div>
->>>>>>> f9197274a0c5d8dea99099048fbf4b8ea41b0c6c
     </div>
   );
 };
 
-<<<<<<< HEAD
-export default InternshipCard;
-=======
 export default InternshipCard; 
->>>>>>> f9197274a0c5d8dea99099048fbf4b8ea41b0c6c
