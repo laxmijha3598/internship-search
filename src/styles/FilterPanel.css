@@ -1,0 +1,28 @@
+.filter-panel {
+  width: 280px;
+  flex: 0 0 280px;
+  padding: 16px;
+  border-right: 1px solid #ccc;
+  background: #fff;
+}
+
+.filter-panel h3 {
+  margin-top: 0;
+}
+
+.filter-panel input {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .filter-panel {
+    width: 100%;
+    flex: none;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+  }
+}

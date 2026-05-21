@@ -1,0 +1,15 @@
+.internship-list {
+  padding: 20px;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  min-width: 0;
+}
+
+@media (max-width: 480px) {
+  .internship-list {
+    padding: 12px;
+    grid-template-columns: 1fr;
+  }
+}

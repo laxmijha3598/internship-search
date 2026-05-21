@@ -1,0 +1,16 @@
+.internship-card {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  overflow-wrap: anywhere;
+}
+
+.internship-card h4 {
+  margin-top: 0;
+}
+
+.internship-card p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
